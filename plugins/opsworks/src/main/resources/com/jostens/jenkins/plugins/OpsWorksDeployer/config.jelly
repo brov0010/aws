@@ -1,0 +1,15 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Layer Id" field="layerId">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Application Id" field="applicationId">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Credentials Parameter" field="credentialsParameterName">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Custom JSON" field="customJSON">
+    <f:expandableTextbox />
+  </f:entry>
+</j:jelly>
